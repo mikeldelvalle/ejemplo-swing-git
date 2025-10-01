@@ -24,7 +24,8 @@ public class VentanaSwingGit extends JFrame {
 		barraMenu.add(menuFichero);
 		
 		JMenuItem itemMostrar = new JMenuItem("Mostrar");
-		JMenuItem itemLimpiar = new JMenuItem("Clean");
+		JMenuItem itemLimpiar = new JMenuItem("Limpiar");
+
 		JMenuItem itemSalir = new JMenuItem("Exit");
 		menuFichero.add(itemMostrar);
 		menuFichero.add(itemLimpiar);
@@ -44,4 +45,5 @@ public class VentanaSwingGit extends JFrame {
 	}
 
 }
+
 
